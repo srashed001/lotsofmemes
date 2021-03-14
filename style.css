@@ -1,6 +1,6 @@
 
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: seashell;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -15,6 +15,7 @@ body {
 label {
     text-align: center;
     font-weight: bold;
+    font-size: 24px;
 }
 
 input {
@@ -26,7 +27,11 @@ h1, h2 {
 }
 
 h1 {
-    text-decoration: underline;
+    border: solid 5px black; 
+    margin: 25px; 
+    color: white; 
+    background-color: purple;
+
 }
 
 #submit {
@@ -40,7 +45,7 @@ form {
     display: flex;
     flex-direction: column;
     border: solid 1px black; 
-    padding: 20px;
+    padding: 50px;
     width: 100%;
     align-items: space-around;
 }
@@ -48,7 +53,6 @@ form {
 
 
 .memes {
-    background-image: url("https://www.gannett-cdn.com/-mm-/3ba7e4f3567938bfa03b2db99f52682c4169c90e/c=31-0-799-1024/local/-/media/2018/04/11/Bergen/NorthJersey/636590591130423863-thegreatruthh.jpg?width=300&height=400&fit=crop&format=pjpg&auto=webp");
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
@@ -59,25 +63,34 @@ form {
     justify-content: space-between;
     align-items: center;
     margin: 25px; 
+    background-size: 100%;
+    position: relative;
+}
+
+button {
+    position: absolute;
+    bottom: -20px;
 }
 
 
-
 p.top-text {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     color: magenta;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+   
 
 
 
 }
 
 p.bottom-text {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold; 
     color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 .meme-collection {
@@ -87,4 +100,11 @@ p.bottom-text {
     background-color: lightcyan;
     margin: 25px;
     flex-wrap: wrap;
+}
+
+.input-fields {
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-size: 20px;
 }

@@ -42,7 +42,7 @@ let memeCollection = document.querySelector(".meme-collection");
 
 
 memeCollection.addEventListener("click", function(e){
-    if (e.target.tagName === "button"){
+    if (e.target.tagName === "BUTTON"){
         e.target.parentNode.remove();
     }
 })
